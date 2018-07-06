@@ -1,0 +1,10 @@
+com.sphenon.engines.factorysite.factories.Factory_Aggregate.SearchPath=ctn%3A//JavaResource/
+com.sphenon.engines.factorysite.factories.Factory_Aggregate.SearchPathForClass.Test=ctn%3A//JavaResource/
+com.sphenon.engines.factorysite.factories.Factory_Aggregate.SearchPathForClass.TestPackage=ctn%3A//JavaResource/
+com.sphenon.engines.factorysite.factories.Factory_Aggregate.SearchPathForClass.RecordedTest=ctn%3A//JavaResource/
+
+com.sphenon.engines.factorysite.SearchPathForClass.UMLModelElement=ctn%3A//JavaResource/
+com.sphenon.engines.factorysite.SearchPathForClass.OOEMModelElement=ctn%3A//JavaResource/
+com.sphenon.engines.factorysite.SearchPathForClass.Vector_UMLExtension_long_=ctn%3A//JavaResource/
+
+com.sphenon.engines.generator.classes.Class_Template.TemplatePath=ctn%3A//JavaResource/

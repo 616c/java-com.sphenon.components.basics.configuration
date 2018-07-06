@@ -1,0 +1,22 @@
+# how useful is this?
+# are caches really written and reused during tomcat run?
+# or should they be prepared in dev/deploy environment and then deployed to tomcat?
+
+com.sphenon.engines.factorysite.ScaffoldFactory.CacheFile=\u0000JavaScript/Cache:config.get(context, "com.sphenon.basics.locating.WEBAPPROOT", "")+"/WEB-INF/lib/classes/com/sphenon/basics/configuration/.scaffoldcache.properties"
+
+com.sphenon.engines.factorysite.factories.Factory_Aggregate.Cache.File=\u0000JavaScript/Cache:config.get(context, "com.sphenon.basics.locating.WEBAPPROOT", "")+"/WEB-INF/lib/classes/com/sphenon/basics/configuration/.ocpfindercache.properties"
+
+com.sphenon.engines.factorysite.factories.Factory_Aggregate.AggregateFactoryCache.File=\u0000JavaScript/Cache:config.get(context, "com.sphenon.basics.locating.WEBAPPROOT", "")+"/WEB-INF/lib/classes/com/sphenon/basics/configuration/.aggregatecache.properties"
+
+com.sphenon.basics.metadata.TypeManager.CacheFile=\u0000JavaScript/Cache:config.get(context, "com.sphenon.basics.locating.WEBAPPROOT", "")+"/WEB-INF/lib/classes/com/sphenon/basics/configuration/.typecache.properties"
+
+com.sphenon.basics.metadata.TypeManager.ClassCacheFile=\u0000JavaScript/Cache:config.get(context, "com.sphenon.basics.locating.WEBAPPROOT", "")+"/WEB-INF/lib/classes/com/sphenon/basics/metadata/ClassCacheDataImpl"
+com.sphenon.basics.metadata.TypeManager.ClassCacheExclude=.*(?:(?:junitframework)|(\\$)).*
+
+com.sphenon.basics.configurationjs.JavaScriptJavaCacheFile=\u0000JavaScript/Cache:config.get(context, "com.sphenon.basics.locating.WEBAPPROOT", "")+"/WEB-INF/lib/classes/com/sphenon/basics/configurationjs/JavaScriptJavaCacheImpl"
+
+com.sphenon.basics.locating.LocatorJavaCacheFile=\u0000JavaScript/Cache:config.get(context, "com.sphenon.basics.locating.WEBAPPROOT", "")+"/WEB-INF/lib/classes/com/sphenon/basics/locating/LocatorJavaCacheImpl"
+
+com.sphenon.basics.expression.ExpressionJavaCacheFile=\u0000JavaScript/Cache:config.get(context, "com.sphenon.basics.locating.WEBAPPROOT", "")+"/WEB-INF/lib/classes/com/sphenon/basics/expression/ExpressionJavaCacheImpl"
+
+com.sphenon.engines.generator.GeneratorRegistry.CacheFile=\u0000JavaScript/Cache:config.get(context, "com.sphenon.basics.locating.WEBAPPROOT", "")+"/WEB-INF/lib/classes/com/sphenon/basics/configuration/.generatorcache.properties"

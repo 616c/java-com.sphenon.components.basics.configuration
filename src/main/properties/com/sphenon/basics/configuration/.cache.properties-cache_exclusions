@@ -1,0 +1,26 @@
+# =============================================================================================================================
+# Cache Excludes
+#
+#com.sphenon.engines.factorysite.COCPAggregateIncludeRegExp=.*
+com.sphenon.engines.factorysite.COCPAggregateExcludeRegExp=(.*(Dictionary|net.leue.andreas|customers|de.sctmediasolution|org.oomodels.business|ad.interaction|com.sphenon.domains.basics.analytics|org.ooem|ooemumloov).*)|(.*\\.swt\\.eh)|(.*stereotypes\\.model.*)|(.*PJLUMLOOEM.*)|(.*PJLOOEMModel.*)
+#com.sphenon.engines.factorysite.COCPTreeNodeIncludeRegExp=.*
+com.sphenon.engines.factorysite.COCPTreeNodeExcludeRegExp=(.*(Dictionary|net.leue.andreas|customers|de.sctmediasolution|org.oomodels.business|ad.interaction|com.sphenon.domains.basics.analytics|org.ooem|ooemumloov).*)|(<MediaObject>.*)|(.*\\.unit)|(.*\\.swt\\.eh)|(.*stereotypes\\.model.*)$
+#
+#com.sphenon.engines.factorysite.ScaffoldFactory.Cache.Type.Include=.*
+com.sphenon.engines.factorysite.ScaffoldFactory.Cache.Type.Exclude=.*(Dictionary|net.leue.andreas|customers|de.sctmediasolution|org.oomodels.business|ad.interaction|com.sphenon.domains.basics.analytics|org.ooem|ooemumloov).*
+#
+#com.sphenon.engines.factorysite.factories.Factory_Aggregate.AggregateFactoryCache.Class.Include=.*
+com.sphenon.engines.factorysite.factories.Factory_Aggregate.AggregateFactoryCache.Class.Exclude=(.*(Dictionary|net.leue.andreas|customers|de.sctmediasolution|org.oomodels.business|ad.interaction|com.sphenon.domains.basics.analytics|org.ooem|ooemumloov|xmodel.origin.source.models.com.sphenon.modelling.xmodel).*)|(.*\\.swt\\.eh)|(.*stereotypes\\.model.*)
+#com.sphenon.engines.factorysite.factories.Factory_Aggregate.AggregateFactoryCache.TreeNode.Include=.*
+com.sphenon.engines.factorysite.factories.Factory_Aggregate.AggregateFactoryCache.TreeNode.Exclude=(.*(Dictionary|net.leue.andreas|customers|de.sctmediasolution|org.oomodels.business|ad.interaction|com.sphenon.domains.basics.analytics|org.ooem|ooemumloov|xmodel.origin.source.models.com.sphenon.modelling.xmodel).*)|(<MediaObject>.*)|(.*\\.unit)|(.*\\.swt\\.eh)|(.*stereotypes\\.model.*)$
+#
+#com.sphenon.basics.metadata.TypeManager.Cache.TypeContext.Include=.*
+com.sphenon.basics.metadata.TypeManager.Cache.TypeContext.Exclude=.*(Dictionary|net.leue.andreas|customers|de.sctmediasolution|org.oomodels.business|ad.interaction|com.sphenon.domains.basics.analytics|org.ooem|ooemumloov).*
+#
+#com.sphenon.basics.metadata.TypeManager.Cache.Type.Include=.*
+com.sphenon.basics.metadata.TypeManager.Cache.Type.Exclude=.*(Dictionary|net.leue.andreas|customers|de.sctmediasolution|org.oomodels.business|ad.interaction|com.sphenon.domains.basics.analytics|org.ooem|ooemumloov).*
+#
+#com.sphenon.basics.metadata.TypeManager.ClassCacheInclude=.*
+com.sphenon.basics.metadata.TypeManager.ClassCacheExclude=.*junitframework.*
+#
+# =============================================================================================================================

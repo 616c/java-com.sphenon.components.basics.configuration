@@ -1,0 +1,7 @@
+# well, this only half of the truth, since not just
+# the generator would update the string cache, but
+# also the COCP compiler; but: the latter relies
+# deeply on the string cache and would be rather
+# unusable without
+
+com.sphenon.engines.generator.UseStringCache=false

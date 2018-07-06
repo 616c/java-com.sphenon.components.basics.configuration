@@ -1,0 +1,10 @@
+com.sphenon.basics.metadata.LoadCache=true
+com.sphenon.engines.factorysite.LoadCache=true
+
+#com.sphenon.basics.metadata.TypeManager.STOPWATCH.Enabled=true
+#com.sphenon.basics.metadata.TypeManager.STOPWATCH.Summarise=true
+#com.sphenon.basics.metadata.TypeManager.STOPWATCH.EnabledNotifications=PRODUCTION,MONITORING,OBSERVATION,CHECKPOINT,DIAGNOSTICS,SELF_DIAGNOSTICS
+
+#com.sphenon.engines.factorysite.ScaffoldFactory.STOPWATCH.Enabled=true
+#com.sphenon.engines.factorysite.ScaffoldFactory.STOPWATCH.Summarise=true
+#com.sphenon.engines.factorysite.ScaffoldFactory.STOPWATCH.EnabledNotifications=PRODUCTION,MONITORING,OBSERVATION,CHECKPOINT,DIAGNOSTICS,SELF_DIAGNOSTICS
